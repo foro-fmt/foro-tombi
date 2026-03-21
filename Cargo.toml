@@ -1,8 +1,8 @@
 [package]
 name = "foro-tombi"
-version = "0.5.1"
+version = "0.5.2"
 edition = "2021"
-repository = "https://github.com/nahco314/foro-tombi"
+repository = "https://github.com/foro-fmt/foro-tombi"
 
 [package.metadata.rust-analyzer]
 # This package uses #[feature(rustc_private)]
@@ -20,16 +20,16 @@ glob = "0.3.2"
 nu-ansi-term = "0.50.1"
 serde = "1.0.219"
 serde_json = "1.0.128"
-serde_tombi = { branch = "foro-tombi", git = "https://github.com/nahco314/tombi/" }
+serde_tombi = { rev = "647fc3e40d7e507fa8379b808c506359e1475091", git = "https://github.com/nahco314/tombi/" }
 # serde_tombi = { path = "../tombi/rust/serde_tombi" }
 smol = "2.0.2"
 surf = "2.3.2"
-tombi-config = { branch = "foro-tombi", git = "https://github.com/nahco314/tombi/" }
-tombi-diagnostic = { branch = "foro-tombi", git = "https://github.com/nahco314/tombi/" }
-tombi-formatter = { branch = "foro-tombi", git = "https://github.com/nahco314/tombi/" }
-tombi-json = { branch = "foro-tombi", git = "https://github.com/nahco314/tombi/" }
-tombi-lexer = { branch = "foro-tombi", git = "https://github.com/nahco314/tombi/" }
-tombi-schema-store = { branch = "foro-tombi", git = "https://github.com/nahco314/tombi/" }
+tombi-config = { rev = "647fc3e40d7e507fa8379b808c506359e1475091", git = "https://github.com/nahco314/tombi/" }
+tombi-diagnostic = { rev = "647fc3e40d7e507fa8379b808c506359e1475091", git = "https://github.com/nahco314/tombi/" }
+tombi-formatter = { rev = "647fc3e40d7e507fa8379b808c506359e1475091", git = "https://github.com/nahco314/tombi/" }
+tombi-json = { rev = "647fc3e40d7e507fa8379b808c506359e1475091", git = "https://github.com/nahco314/tombi/" }
+tombi-lexer = { rev = "647fc3e40d7e507fa8379b808c506359e1475091", git = "https://github.com/nahco314/tombi/" }
+tombi-schema-store = { rev = "647fc3e40d7e507fa8379b808c506359e1475091", git = "https://github.com/nahco314/tombi/" }
 # tombi-config = { path = "../tombi/crates/tombi-config" }
 # tombi-diagnostic = { path = "../tombi/crates/tombi-diagnostic" }
 # tombi-formatter = { path = "../tombi/crates/tombi-formatter" }
