@@ -1,6 +1,6 @@
 [package]
 name = "foro-tombi"
-version = "0.5.2"
+version = "0.3.55"
 edition = "2021"
 repository = "https://github.com/foro-fmt/foro-tombi"
 
